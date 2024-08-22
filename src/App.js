@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import Game from './components/Game';
 import './App.css';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://server-ism4.onrender.com');
 
 const currentUserRole = 'user'; // Change this to 'admin' for admin access
 
