@@ -9,7 +9,7 @@ app.use(cors()); // To allow cross-origin requests
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Replace with your frontend URL
+    origin: "react-phaser-task-02-main.vercel.app", // Replace with your frontend URL
     methods: ["GET", "POST"]
   }
 });
